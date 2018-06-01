@@ -20,8 +20,8 @@ jobs:
       handler_name: handle
       timeout: 300
       dot_match: true
-      access_key_id: <CHANGE_ME>
+      access_key_id: AKIAJTUSZCFJO2PNDFHQ
       secret_access_key:
-        secure: <CHANGE_ME>
+        secure: "MLgp1xErmOw3eqtBziu867rw4MsFNvKv7mKFyggCPkd2R3XXFrsQsM1p5bmshRH76T5nXptnHyD+dhT4yeDpXu+h66b6Q9SzS3LsanJXjj0+lsPqL1ruRgERGe+oUJD/dCFz0FteHbzUXynoz1tHK9KgONb5SsxzYABIpi9tICXSN0ehzgBh6bwJngUtdqqCH86YIQCmfenG+SRQiBgvgAUP1Kfgdbi6hRiYKe11g4DzXruUJKFDuJMlVzy5FVuPQ51omPkKa2W9yq/HKprptsq5UVSIRecUQPv+8F3JGSxJWqxoPYci2h8xXxEN4whyvr4bjGjRXp8FjVYHz07Xgij5Fg7qBvCNrghfdceydsYnfSCMkz/D7uUCi1R3LnBDecaPuZrxLz2OCGWo9mQCbTi9C7YfWqXmHS3PPwhQeIKj8TMprHlaC1Wn4wlb+W8LoRyJ2BSxbTec33gM9aDF6qjb9qlT6m3PRPVJ7UjpoxOT6IuZ3/s0efrYP0qXE/HSQCFjKEtyBm28lhyuBUW/rKBKHgrw0hH9/CLVxv7syXDN2yCpoNHhpSEJ+dIlyF/SKV2galrZV7va2ow756VsSMKCp0CviRVw4wvH+yiM4fwyPUbJKpXAUPrReNyNLnArj2lWXxzII/q0TtVpsbUVkP6x16dPWTJgw7dn+QC9W3g="
       on:
         repo: LambdaLint/flake8
