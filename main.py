@@ -13,5 +13,5 @@ def handle(*args, **kwargs):
     """Handle that is invoked by AWS lambda."""
     CheckRun(
         'flake8',
-        'flake8', '.'
+        'flake8', '--jobs', '1', '.'
     )(*args, **kwargs)
