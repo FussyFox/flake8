@@ -1,2 +1,2 @@
 lintipy==1.0.1
-flake8==3.5.0
+flake8==3.6.0
