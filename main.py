@@ -8,10 +8,7 @@ root_logger = logging.getLogger('')
 root_logger.setLevel(logging.DEBUG)
 root_logger.addHandler(logging.StreamHandler(sys.stdout))
 
-
-def handle(*args, **kwargs):
-    """Handle that is invoked by AWS lambda."""
-    CheckRun(
-        'flake8',
-        'flake8', '--jobs', '1', '.'
-    )(*args, **kwargs)
+handle = CheckRun.as_handler(
+    'flake8',
+    'flake8', '--jobs', '1', '.'
+)
